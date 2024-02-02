@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li{
+    margin: 20px;
+    position: relative;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+    color: black;
+    width: 100px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+nav a:hover{
+    color: white;
+    background-color: #58978A;
+}
+
+.InicioA{
+    margin: 50px;
+    padding: 30px;
+}
+
+#box{
+    background-image: url(/img/pankaj-patel-kNfP4Z2eq7w-.jpg);
+    
+}
+
+selection{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+article{
+    flex: 2;
+}
+
+aside{
+    flex: 2;
+}
+
+#titulo{
+    color: white;
+    font-style:'Segoe UI';
+    font-size: 30px;
+    text-transform:none;
+    font-weight: 500;
+    font-style:unset;
+    text-align: center;
+}
+
+#prf{
+    margin: 30px;
+}
+
+h2{
+    color: #58978A;
+    font-style: Arial;
+    font-size: 30px;
+}
+
+#lt{
+    color: #58978A;
+    font-style: unset;
+    display: inline-block;
+}
+
+#bx{
+    display: inline-table;
+}
+
+#ci{
+    background-color: #58978A;
+    margin: 100px;
+    padding: 50px;
+    border-radius: 50px;
+    color: white;
+}
+
+h3{
+    color: black;
+    text-align: center;
+    font-style:'Franklin Gothic Medium';
+    font-size: 45px;
+}
+
+#colores{
+    background-image: url(/img/Vector\ 1.png);
+    background-repeat: no-repeat;
+    background-attachment: block;
+    background-size: cover;
+    
+
+}
+
+#ft{
+    background-image: url(/img/pankaj-patel-kNfP4Z2eq7w-.jpg);
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    padding: 200px;
+    border-radius: 1000px;
+}
+
+#col{
+    color: white;
+}
+
+#si{
+    margin: 30px;
+    padding: 30px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #474747;
+    padding: 30px;
+}
+
+footer div{
+    flex: 1;
+}
+
+#p2{
+    margin-left: 180px;
+}
+strong{
+    color: aquamarine;
+}
